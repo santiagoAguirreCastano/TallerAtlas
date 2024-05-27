@@ -297,9 +297,15 @@ padding-right: 150px;
         margin-left: 0px;
         width: 55   0px;
     }
+    .titulo_section2{
+        width: 500px;
+    }
+    .parrafo-section2{
+        width: 500px;
+    }
     .article_section2-2{
         margin: 0px;
-        width: 800px;
+        width: 900px;
     }
     .article_section5-1{
         margin: 0px;
@@ -368,7 +374,8 @@ padding-right: 150px;
     .article-section2{
         width: 500px;
         margin: 0;
-        padding: 50px;
+        padding-top: 100px;
+        padding-left: 10px;
     }
     .parrafo-section2{
         width: 400px;
@@ -421,4 +428,90 @@ padding-right: 150px;
         color:rgb(39, 245, 180) ;
     width: 10px;
     }
+}
+@media screen and (max-width:768px){
+/*HEADER*/
+.header_titulos{
+    margin-right: 500px;
+}
+h1{
+    font-size: 30px;
+    margin-right: 50px;
+}
+header{
+    background-image: url(../assets/images/banner-bk.jpg);
+    height: 650px;
+    width: 768px;
+    color: white;
+}
+/*SECCION 1*/
+.section1{
+    width: 768px;
+}
+.imagen_section1{
+    margin-right: 0px;
+    margin-left: 30px;
+}
+/*SECCION 2*/
+.computador{
+    margin-top: 100px;
+    width: 350px;
+}
+.section2-2{
+    padding-top: 60px;
+}
+.article-section2{
+    width: 300px;
+    margin: 0;
+    padding: 50px;
+}
+.parrafo-section2{
+    width: 300px;
+}
+.section2_imagen{
+    margin-left: 0px;
+}
+.article_section2-2{
+    margin: 0px;
+    width: 350px;
+}
+.titulo_section2{
+    width: 300px;
+}
+/*SECCION 3*/
+
+.div_section3-1{
+    padding: 30px;
+}
+.div_section3{
+    padding: 30px;
+}
+/*SECCION 4*/
+.section4{
+    padding: 0px;
+    padding-top: 50px;
+    
+}
+.empresas{
+height:60px;
+
+}
+/*SECCION 5*/
+.section5{
+    height: 500px;
+}
+.article_section5-1{
+    margin: 0px;
+    width: 700px;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+/*FOOTER*/
+.images-footer{
+    padding-right: 50px;
+}
+.copy-footer{
+    padding-left: 50px;
+}
 }
