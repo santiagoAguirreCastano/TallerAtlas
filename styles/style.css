@@ -268,3 +268,157 @@ footer{
 align-items: center;
 padding-right: 150px;
 }
+
+/*media queries*/
+
+@media screen and (max-width:1279px){
+    .header_titulos{
+        margin: 100px;
+        margin-right: 700px;
+    }
+    h1{
+        font-size: 30px;
+        margin-right: 200px;
+        padding-bottom: 50px;
+    }
+    header{
+        background-image: url(../assets/images/banner-bk.jpg);
+        height: 650px;
+        width: 1279px;
+        color: white;
+    }
+    .header2{
+        align-content: center;
+    }
+    .article-section2{
+        width: 300px;
+    }
+    .section2_imagen{
+        margin-left: 0px;
+        width: 55   0px;
+    }
+    .article_section2-2{
+        margin: 0px;
+        width: 800px;
+    }
+    .article_section5-1{
+        margin: 0px;
+        width: 200px;
+    }
+    .article_section5{
+       width: 400px;
+    }
+    .h2-section5{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    textarea{
+        width: 300px;
+    }
+    input{
+        width: 120px;
+    }
+    .boton-section5{
+        width: 300px;
+    }
+    .div-section5{
+        display: flex;
+        color:rgb(39, 245, 180) ;
+    width: 10px;
+    }
+   
+}
+@media screen and (max-width:920px){
+    /*HEADER*/
+    .header_titulos{
+        margin-right: 500px;
+    }
+    h1{
+        font-size: 30px;
+        margin-right: 100px;
+    }
+    header{
+        background-image: url(../assets/images/banner-bk.jpg);
+        height: 650px;
+        width: 920px;
+        color: white;
+    }
+    .parrafo_header{
+        width: 500px;
+    }
+    .header2{
+        align-content: center;
+    }
+    /*SECCION 1*/
+    .section1{
+        width: 920px;
+    }
+    .imagen_section1{
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+    /*SECCION 2*/
+    .computador{
+        margin-top: 100px;
+        width: 400px;
+    }
+    .tablet{
+        width: 380px;
+    }
+    .article-section2{
+        width: 500px;
+        margin: 0;
+        padding: 50px;
+    }
+    .parrafo-section2{
+        width: 400px;
+    }
+    .section2_imagen{
+        margin-left: 0px;
+    }
+    .article_section2-2{
+        margin: 0px;
+        width: 500px;
+    }
+    /*SECCION 3*/
+
+    .div_section3-1{
+        padding: 50px;
+    }
+    .div_section3{
+        padding: 50px;
+    }
+    /*SECCION 5*/
+    .section5{
+        height: 500px;
+    }
+    .article_section5-1{
+        margin: 0px;
+        width: 400px;
+        padding: 0px;
+        margin-top: 100px;
+    }
+    .article_section5{
+       width: 400px;
+       padding: 100px;
+
+    }
+    .h2-section5{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    textarea{
+        width: 300px;
+    }
+    input{
+        width: 120px;
+    }
+    .boton-section5{
+        width: 300px;
+    }
+    .div-section5{
+        display: flex;
+        color:rgb(39, 245, 180) ;
+    width: 10px;
+    }
+}
