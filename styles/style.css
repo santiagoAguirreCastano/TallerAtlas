@@ -218,6 +218,7 @@ input{
 footer{
     display: flex;
     justify-content: space-between;
+
     height: 100px;
     background-color: rgb(20, 26, 55);
     color: white;
@@ -514,4 +515,77 @@ height:60px;
 .copy-footer{
     padding-left: 50px;
 }
+}
+@media screen and (max-width:480px){
+    /*HEADER*/
+    header{
+        width: 480px;
+        background-position-x:-300px ;
+    }
+    h1{
+        font-size: 40px;
+        margin-right: 0px;
+    }
+    .header_titulos{
+        width: 300px;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .parrafo_header{
+        width: 400px;
+    }
+    .boton_header{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+    /*SECCION 1*/
+    .section1{
+        flex-direction: column;
+        width: 480px;
+    }
+    /*SECCION 2*/
+    .section2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2-2{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .article_section2-2{
+        padding: 50px;
+    }
+    /*SECCION 3*/
+    .section3-1{
+        flex-direction: column;
+    }
+    .div_section3-1{
+        width: 420px;
+        padding: 30px;
+    }
+    /*SECCION 4*/
+    .section4{
+        flex-wrap: wrap;
+    }
+    /*SECCION 5*/
+    .section5{
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+    }
+    .article_section5-1{
+        margin-top: 0;
+        width: 320px;
+        padding: 50px;
+    }
+    .article_section5{
+        padding: 20px;
+    }
+    /*FOOTER*/
+    .images-footer{
+        width: 200px;
+    }
+
 }
