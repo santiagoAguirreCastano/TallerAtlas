@@ -153,6 +153,9 @@ span{
     padding-top: 50px;
     margin-top: 100px;
     height: 130px;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
 }
 /*SECTION5*/
 .section5{
@@ -175,6 +178,14 @@ span{
     font-size: 60px;
     padding-bottom: 50px;
 }
+.imagen_css{
+    position: absolute;
+    height: 90px;
+    bottom: -40px;
+    left: 850px;
+    border-radius: 100%;
+}
+
 .div-section5{
     display: flex;
     color:rgb(39, 245, 180) ;
